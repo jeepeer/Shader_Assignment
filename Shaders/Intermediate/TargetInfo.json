@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Shaders",
+			"Path": "D:\\CodeProjects\\Shader_Assignment\\Shaders\\Source\\Shaders.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ShadersEditor",
+			"Path": "D:\\CodeProjects\\Shader_Assignment\\Shaders\\Source\\ShadersEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

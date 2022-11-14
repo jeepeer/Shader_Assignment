@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\codeprojects\\shader_assignment\\shaders\\intermediate\\build\\win64\\unrealeditor\\inc\\shaders\\shaders.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\codeprojects\\shader_assignment\\shaders\\intermediate\\build\\win64\\shaderseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\codeprojects\\shader_assignment\\shaders\\intermediate\\build\\win64\\unrealeditor\\development\\shaders\\definitions.shaders.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

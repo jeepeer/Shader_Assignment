@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\codeprojects\\shader_assignment\\shaders\\source\\shaders\\shadersgamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\codeprojects\\shader_assignment\\shaders\\intermediate\\build\\win64\\shaderseditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\codeprojects\\shader_assignment\\shaders\\intermediate\\build\\win64\\unrealeditor\\development\\shaders\\definitions.shaders.h",
+            "d:\\codeprojects\\shader_assignment\\shaders\\source\\shaders\\shadersgamemodebase.h",
+            "d:\\epic games games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\epic games games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\epic games games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "d:\\epic games games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "d:\\codeprojects\\shader_assignment\\shaders\\intermediate\\build\\win64\\unrealeditor\\inc\\shaders\\shadersgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

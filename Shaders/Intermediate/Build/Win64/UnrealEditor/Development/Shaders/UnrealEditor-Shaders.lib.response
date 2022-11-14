@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Shaders.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\CodeProjects\Shader_Assignment\Shaders\Intermediate\Build\Win64\ShadersEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\CodeProjects\Shader_Assignment\Shaders\Intermediate\Build\Win64\UnrealEditor\Development\Shaders\Shaders.cpp.obj"
+"D:\CodeProjects\Shader_Assignment\Shaders\Intermediate\Build\Win64\UnrealEditor\Development\Shaders\ShadersGameModeBase.cpp.obj"
+"D:\CodeProjects\Shader_Assignment\Shaders\Intermediate\Build\Win64\UnrealEditor\Development\Shaders\Shaders.init.gen.cpp.obj"
+"D:\CodeProjects\Shader_Assignment\Shaders\Intermediate\Build\Win64\UnrealEditor\Development\Shaders\ShadersGameModeBase.gen.cpp.obj"
+"D:\CodeProjects\Shader_Assignment\Shaders\Intermediate\Build\Win64\UnrealEditor\Development\Shaders\Default.rc2.res"
+/OUT:"D:\CodeProjects\Shader_Assignment\Shaders\Intermediate\Build\Win64\UnrealEditor\Development\Shaders\UnrealEditor-Shaders.lib"

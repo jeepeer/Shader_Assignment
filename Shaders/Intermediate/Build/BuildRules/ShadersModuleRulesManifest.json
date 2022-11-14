@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\CodeProjects\\Shader_Assignment\\Shaders\\Source\\Shaders\\Shaders.Build.cs",
+		"D:\\CodeProjects\\Shader_Assignment\\Shaders\\Source\\Shaders.Target.cs",
+		"D:\\CodeProjects\\Shader_Assignment\\Shaders\\Source\\ShadersEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}
