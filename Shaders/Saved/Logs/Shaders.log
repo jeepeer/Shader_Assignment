@@ -4337,3 +4337,241 @@ Recommended: 516.25
 [2022.11.14-13.57.38:642][200]LogContentValidation: Display: Validating StaticMeshActor /Game/Level.Level:PersistentLevel.StaticMeshActor_UAID_049226D563849A4901_1920018357
 [2022.11.14-13.57.38:642][200]LogContentValidation: Display: Validating StaticMeshActor /Game/Level.Level:PersistentLevel.StaticMeshActor_UAID_049226D563849A4901_1599047356
 [2022.11.14-13.57.38:653][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.11.14-14.01.50:402][  6]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.11.14-14.01.50:404][  6]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level' took 0.015
+[2022.11.14-14.05.07:468][596]LogDerivedDataCache: C:/Users/Jeppe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.245 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.14-14.11.50:826][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.11.14-14.11.50:827][799]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level' took 0.010
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: ================================================
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: Total job queries 1318, among them cache hits 983 (74.58%)
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: Tracking 286 distinct input hashes that result in 116 distinct outputs (40.56%)
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: RAM used: 0.52 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.06%
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: Shaders Compiled: 70
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: Jobs assigned 286, completed 286 (100.00%)
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: Average time worker was idle: 59.66 s
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: Time job spent in pending queue: average 0.13 s, longest 2.65 s
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: Job execution time: average 2.07 s, max 8.67 s
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: Job life time (pending + execution): average 2.20 s, max 9.14
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 175.45 s
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: Jobs were issued in 286 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: Average processing rate: 1.63 jobs/sec
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: Effective parallelization: 3.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    5 times, average 7.58 sec, max 8.61 sec, min 6.84 sec)
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    5 times, average 7.53 sec, max 8.57 sec, min 6.75 sec)
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    5 times, average 7.46 sec, max 8.56 sec, min 6.72 sec)
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    5 times, average 7.44 sec, max 8.52 sec, min 6.65 sec)
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    5 times, average 7.43 sec, max 8.43 sec, min 6.66 sec)
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 15.15% of total time (compiled   25 times, average 3.19 sec, max 3.82 sec, min 2.89 sec)
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.51% of total time (compiled   33 times, average 1.84 sec, max 8.27 sec, min 0.62 sec)
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.59% of total time (compiled   53 times, average 1.05 sec, max 1.54 sec, min 0.78 sec)
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.14% of total time (compiled   41 times, average 1.05 sec, max 1.52 sec, min 0.81 sec)
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 7.19% of total time (compiled    5 times, average 7.58 sec, max 8.61 sec, min 6.84 sec)
+[2022.11.14-14.15.33:087][509]LogShaderCompilers: Display: ================================================
+[2022.11.14-14.15.33:109][510]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.14-14.15.33:109][510]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.15.33:109][510]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.15.33:109][510]MaterialEditorStats: Shader Count: 4
+[2022.11.14-14.15.51:586][368]LogMaterial: Display: Missing cached shadermap for Preview:M_Water in PCD3D_SM5, Default, SM5 (DDC key hash: AE31E2D13DEAB869DFD6703781A27CC58CB21F27), compiling. 
+[2022.11.14-14.15.51:611][368]LogMaterial: Display: Missing cached shadermap for Preview:M_Water in PCD3D_SM5, Default, SM5 (DDC key hash: 7B887069496030D6878EF114BE4065057D6E84CB), compiling. 
+[2022.11.14-14.15.51:615][368]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: EA25C9E7AADFCC3EEFA121F499FF4A7190093D1F), compiling. 
+[2022.11.14-14.15.51:622][368]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.14-14.15.51:622][368]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.15.51:622][368]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.15.51:622][368]MaterialEditorStats: Shader Count: 0
+[2022.11.14-14.15.51:677][370]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.14-14.15.51:677][370]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.15.51:677][370]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.15.51:677][370]MaterialEditorStats: Shader Count: 4
+[2022.11.14-14.15.52:970][489]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 86333EED01733B109299F358C971284B7650304F), compiling. 
+[2022.11.14-14.15.55:652][699]LogMaterial: Display: Missing cached shadermap for Preview:M_Water in PCD3D_SM5, Default, SM5 (DDC key hash: 44F176D1BF01C70AB13C47CC32BC34B9F6E732FD), compiling. 
+[2022.11.14-14.15.55:660][699]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.14-14.15.55:660][699]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.15.55:660][699]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.15.55:660][699]MaterialEditorStats: Shader Count: 0
+[2022.11.14-14.15.56:300][751]MaterialEditorStats: Texture samplers: 1/16
+[2022.11.14-14.15.56:300][751]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.15.56:300][751]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.15.56:300][751]MaterialEditorStats: Shader Count: 1
+[2022.11.14-14.15.59:417][980]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.14-14.15.59:417][980]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.15.59:417][980]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.15.59:417][980]MaterialEditorStats: Shader Count: 4
+[2022.11.14-14.16.05:801][634]LogMaterial: Display: Missing cached shadermap for Preview:M_Water in PCD3D_SM5, Default, SM5 (DDC key hash: 7DD0519DD215A535F38964359D5664A65BD92AE9), compiling. 
+[2022.11.14-14.16.05:808][634]LogMaterial: Display: Missing cached shadermap for Preview:M_Water in PCD3D_SM5, Default, SM5 (DDC key hash: 4C9A112C1019B0A7CDB58033B3D29F0DEC02488E), compiling. 
+[2022.11.14-14.16.05:813][634]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.14-14.16.05:813][634]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.16.05:813][634]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.16.05:813][634]MaterialEditorStats: Shader Count: 0
+[2022.11.14-14.16.06:503][681]MaterialEditorStats: Texture samplers: 1/16
+[2022.11.14-14.16.06:503][681]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.16.06:503][681]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.16.06:503][681]MaterialEditorStats: Shader Count: 1
+[2022.11.14-14.16.09:526][913]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.14-14.16.09:526][913]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.16.09:526][913]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.16.09:526][913]MaterialEditorStats: Shader Count: 4
+[2022.11.14-14.16.10:704][ 13]LogEditorTransaction: Undo Edit Speed X
+[2022.11.14-14.16.10:706][ 13]LogMaterial: Display: Missing cached shadermap for Preview:M_Water in PCD3D_SM5, Default, SM5 (DDC key hash: A982FBC7D1B46E6CA777B7DBF322D8E0622BC98E), compiling. 
+[2022.11.14-14.16.10:711][ 13]LogMaterial: Display: Missing cached shadermap for Preview:M_CellShader in PCD3D_SM5, Default, SM5 (DDC key hash: D18EC2C51D9640A8017B8490CE8C6CFC0C79F1C5), compiling. 
+[2022.11.14-14.16.10:716][ 13]LogMaterial: Display: Missing cached shadermap for Preview:M_Pixelate in PCD3D_SM5, Default, SM5 (DDC key hash: B71D75DD219A9646A855018E860D9B871029FC8B), compiling. 
+[2022.11.14-14.16.10:721][ 13]LogMaterial: Display: Missing cached shadermap for Preview:M_Water in PCD3D_SM5, Default, SM5 (DDC key hash: 5CA61D1F06009357BE7471EEF6C069D9DA96FCC8), compiling. 
+[2022.11.14-14.16.10:746][ 13]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.14-14.16.10:746][ 13]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.16.10:746][ 13]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.16.10:746][ 13]MaterialEditorStats: Shader Count: 0
+[2022.11.14-14.16.10:820][ 15]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.14-14.16.10:820][ 15]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.16.10:821][ 15]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.16.10:821][ 15]MaterialEditorStats: Shader Count: 4
+[2022.11.14-14.16.11:207][ 27]LogEditorTransaction: Undo Move Node
+[2022.11.14-14.16.11:209][ 27]LogMaterial: Display: Missing cached shadermap for Preview:M_CellShader in PCD3D_SM5, Default, SM5 (DDC key hash: 7B4A60C62757A1A036F259854A191F478CB821BC), compiling. 
+[2022.11.14-14.16.11:212][ 27]LogMaterial: Display: Missing cached shadermap for Preview:M_Pixelate in PCD3D_SM5, Default, SM5 (DDC key hash: 82631068E66E712A84012BFFEFA8EF581DBADF5F), compiling. 
+[2022.11.14-14.16.11:217][ 27]LogMaterial: Display: Missing cached shadermap for Preview:M_Water in PCD3D_SM5, Default, SM5 (DDC key hash: E98FA9EE8668ADFA8C63A2472658C710A3A368F9), compiling. 
+[2022.11.14-14.16.11:228][ 27]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.14-14.16.11:228][ 27]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.16.11:228][ 27]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.16.11:228][ 27]MaterialEditorStats: Shader Count: 0
+[2022.11.14-14.16.11:276][ 29]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.14-14.16.11:276][ 29]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.16.11:276][ 29]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.16.11:276][ 29]MaterialEditorStats: Shader Count: 4
+[2022.11.14-14.16.11:766][ 70]LogEditorTransaction: Undo Create Pin Link
+[2022.11.14-14.16.11:769][ 70]LogMaterial: Display: Missing cached shadermap for Preview:M_Water in PCD3D_SM5, Default, SM5 (DDC key hash: DE173E26DC49D99FEC324E56AE3BD685B56B5775), compiling. 
+[2022.11.14-14.16.11:773][ 70]LogMaterial: Display: Missing cached shadermap for Preview:M_CellShader in PCD3D_SM5, Default, SM5 (DDC key hash: 5E9F33BC17C321B6ADADB811AB2037436C97AFC9), compiling. 
+[2022.11.14-14.16.11:777][ 70]LogMaterial: Display: Missing cached shadermap for Preview:M_Pixelate in PCD3D_SM5, Default, SM5 (DDC key hash: 0116F6A17C21FB98B02D063C4FA376615FFFC073), compiling. 
+[2022.11.14-14.16.11:782][ 70]LogMaterial: Display: Missing cached shadermap for Preview:M_Water in PCD3D_SM5, Default, SM5 (DDC key hash: 4B3B21D078039B25C15E21986D79EDB0F764D82A), compiling. 
+[2022.11.14-14.16.11:792][ 70]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.14-14.16.11:792][ 70]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.16.11:792][ 70]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.16.11:792][ 70]MaterialEditorStats: Shader Count: 0
+[2022.11.14-14.16.11:837][ 72]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.14-14.16.11:837][ 72]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.16.11:837][ 72]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.16.11:837][ 72]MaterialEditorStats: Shader Count: 4
+[2022.11.14-14.16.12:813][160]LogEditorTransaction: Undo Material Editor: New Function Call
+[2022.11.14-14.16.12:819][160]LogMaterial: Display: Missing cached shadermap for Preview:M_Water in PCD3D_SM5, Default, SM5 (DDC key hash: CD9E1014E83067F1CBE76B44E73B66FA5B80C70C), compiling. 
+[2022.11.14-14.16.12:824][160]LogMaterial: Display: Missing cached shadermap for Preview:M_CellShader in PCD3D_SM5, Default, SM5 (DDC key hash: 77A5B4E6344992E2BD9516752D13728436647F70), compiling. 
+[2022.11.14-14.16.12:829][160]LogMaterial: Display: Missing cached shadermap for Preview:M_Pixelate in PCD3D_SM5, Default, SM5 (DDC key hash: 90C7F7C13B1FBCD0A1B7012E1F18ED8EAC64822A), compiling. 
+[2022.11.14-14.16.12:834][160]LogMaterial: Display: Missing cached shadermap for Preview:M_Water in PCD3D_SM5, Default, SM5 (DDC key hash: 88792445658524CA3A710E954A48B14BD7A758D7), compiling. 
+[2022.11.14-14.16.12:838][160]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 81CADBC9222D72A31BC7BB19F14A3F0C8768A36B), compiling. 
+[2022.11.14-14.16.12:848][160]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.14-14.16.12:848][160]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.16.12:848][160]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.16.12:848][160]MaterialEditorStats: Shader Count: 0
+[2022.11.14-14.16.12:910][162]MaterialEditorStats: Texture samplers: 4/16
+[2022.11.14-14.16.12:910][162]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.11.14-14.16.12:910][162]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.14-14.16.12:910][162]MaterialEditorStats: Shader Count: 4
+[2022.11.14-14.21.51:471][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.11.14-14.21.51:475][504]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level' took 0.016
+[2022.11.14-14.31.54:625][394]LogSlate: Window 'Message' being destroyed
+[2022.11.14-14.31.54:633][394]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Shader/M_CellShader.M_CellShader
+(Selecting 'No' will cause all changes to be lost!)
+[2022.11.14-14.31.55:220][394]LogMaterial: Display: Missing cached shadermap for Preview:M_CellShader in PCD3D_SM5, Default, SM5 (DDC key hash: 2564C733BB9DB031A849B75B527A99CA594B6D2F), compiling. 
+[2022.11.14-14.31.55:236][394]LogMaterial: Display: Missing cached shadermap for M_CellShader in PCD3D_SM5, Default, SM5 (DDC key hash: 152F2F30165C44A8CD2035C9E2D3FBFCA7C2E447), compiling. 
+[2022.11.14-14.31.55:254][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.11.14-14.31.55:294][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.11.14-14.31.56:188][394]LogSlate: Window 'Message' being destroyed
+[2022.11.14-14.31.56:196][394]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Shader/M_Pixelate.M_Pixelate
+(Selecting 'No' will cause all changes to be lost!)
+[2022.11.14-14.31.56:742][394]LogMaterial: Display: Missing cached shadermap for Preview:M_Pixelate in PCD3D_SM5, Default, SM5 (DDC key hash: 0A2FFF6507CBF2C4CD7413C85D1779DA53002F2B), compiling. 
+[2022.11.14-14.31.56:757][394]LogMaterial: Display: Missing cached shadermap for M_Pixelate in PCD3D_SM5, Default, SM5 (DDC key hash: 8F724E4B60D1BAEDE7A907294E1B72918258838E), compiling. 
+[2022.11.14-14.31.56:774][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.11.14-14.31.56:817][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2022.11.14-14.31.57:333][394]LogSlate: Window 'Message' being destroyed
+[2022.11.14-14.31.57:341][394]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Shader/M_Water.M_Water
+(Selecting 'No' will cause all changes to be lost!)
+[2022.11.14-14.31.57:877][394]LogMaterial: Display: Missing cached shadermap for Preview:M_Water in PCD3D_SM5, Default, SM5 (DDC key hash: 3A9B2975A1694466012AB39F54F693123FCF0C25), compiling. 
+[2022.11.14-14.31.57:893][394]LogMaterial: Display: Missing cached shadermap for M_Water in PCD3D_SM5, Default, SM5 (DDC key hash: A8291B749ED22BB0E7CF1C4721711DC0B7A238EC), compiling. 
+[2022.11.14-14.31.57:908][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: ================================================
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: Total job queries 1378, among them cache hits 1029 (74.67%)
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: Tracking 300 distinct input hashes that result in 123 distinct outputs (41.00%)
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: RAM used: 0.55 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.07%
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: Shaders Compiled: 72
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: Jobs assigned 300, completed 300 (100.00%)
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: Average time worker was idle: 72.76 s
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: Time job spent in pending queue: average 0.12 s, longest 2.65 s
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: Job execution time: average 2.04 s, max 8.67 s
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: Job life time (pending + execution): average 2.17 s, max 9.14
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 185.41 s
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: Jobs were issued in 300 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: Average processing rate: 1.62 jobs/sec
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: Effective parallelization: 2.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    5 times, average 7.58 sec, max 8.61 sec, min 6.84 sec)
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    5 times, average 7.53 sec, max 8.57 sec, min 6.75 sec)
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    5 times, average 7.46 sec, max 8.56 sec, min 6.72 sec)
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    5 times, average 7.44 sec, max 8.52 sec, min 6.65 sec)
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    5 times, average 7.43 sec, max 8.43 sec, min 6.66 sec)
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 15.94% of total time (compiled   27 times, average 3.22 sec, max 3.82 sec, min 2.89 sec)
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.46% of total time (compiled   35 times, average 1.78 sec, max 8.27 sec, min 0.62 sec)
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.05% of total time (compiled   57 times, average 1.06 sec, max 1.54 sec, min 0.78 sec)
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.47% of total time (compiled   44 times, average 1.05 sec, max 1.52 sec, min 0.81 sec)
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 6.96% of total time (compiled    5 times, average 7.58 sec, max 8.61 sec, min 6.84 sec)
+[2022.11.14-14.31.58:088][394]LogShaderCompilers: Display: ================================================
+[2022.11.14-14.31.58:106][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2022.11.14-14.31.58:124][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.11.14-14.31.59:432][394]LogSlate: Window 'Save Content' being destroyed
+[2022.11.14-14.31.59:531][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shader/M_CellShader" FILE="../../../../../CodeProjects/Shader_Assignment/Shaders/Content/Shader/M_CellShader.uasset" SILENT=true
+[2022.11.14-14.31.59:535][394]LogSavePackage: Moving output files for package: /Game/Shader/M_CellShader
+[2022.11.14-14.31.59:536][394]LogSavePackage: Moving '../../../../../CodeProjects/Shader_Assignment/Shaders/Saved/M_CellShader053D5ED04789275A7DE681A0A15D00C4.tmp' to '../../../../../CodeProjects/Shader_Assignment/Shaders/Content/Shader/M_CellShader.uasset'
+[2022.11.14-14.31.59:562][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shader/M_Pixelate" FILE="../../../../../CodeProjects/Shader_Assignment/Shaders/Content/Shader/M_Pixelate.uasset" SILENT=true
+[2022.11.14-14.31.59:565][394]LogSavePackage: Moving output files for package: /Game/Shader/M_Pixelate
+[2022.11.14-14.31.59:566][394]LogSavePackage: Moving '../../../../../CodeProjects/Shader_Assignment/Shaders/Saved/M_Pixelate2FFFF4C1466EA9292C25BC8982702701.tmp' to '../../../../../CodeProjects/Shader_Assignment/Shaders/Content/Shader/M_Pixelate.uasset'
+[2022.11.14-14.31.59:632][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shader/M_Water" FILE="../../../../../CodeProjects/Shader_Assignment/Shaders/Content/Shader/M_Water.uasset" SILENT=true
+[2022.11.14-14.31.59:636][394]LogSavePackage: Moving output files for package: /Game/Shader/M_Water
+[2022.11.14-14.31.59:636][394]LogSavePackage: Moving '../../../../../CodeProjects/Shader_Assignment/Shaders/Saved/M_Water0C7AA54A41F25F347E8841B1D40D1F88.tmp' to '../../../../../CodeProjects/Shader_Assignment/Shaders/Content/Shader/M_Water.uasset'
+[2022.11.14-14.31.59:647][394]LogStall: Shutdown...
+[2022.11.14-14.31.59:669][394]LogStall: Shutdown complete.
+[2022.11.14-14.31.59:826][394]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.14-14.31.59:826][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.14-14.32.00:024][394]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.11.14-14.32.00:024][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.14-14.32.00:088][394]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.11.14-14.32.00:088][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.14-14.32.00:263][394]LogSlate: Window 'Shaders - Unreal Editor' being destroyed
+[2022.11.14-14.32.00:764][394]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.14-14.32.00:764][394]LogContentValidation: Display: Validating Material /Game/Shader/M_CellShader.M_CellShader
+[2022.11.14-14.32.00:765][394]LogContentValidation: Display: Validating Material /Game/Shader/M_Pixelate.M_Pixelate
+[2022.11.14-14.32.00:765][394]LogContentValidation: Display: Validating Material /Game/Shader/M_Water.M_Water
+[2022.11.14-14.32.00:767][395]Cmd: QUIT_EDITOR
+[2022.11.14-14.32.00:768][395]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.11.14-14.32.00:811][395]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.11.14-14.32.00:823][395]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2022.11.14-14.32.00:826][395]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2022.11.14-14.32.02:199][395]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.11.14-14.32.02:199][395]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.11.14-14.32.02:199][395]LogAudio: Display: Audio Device unregistered from world 'Level'.
+[2022.11.14-14.32.02:206][395]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.11.14-14.32.02:208][395]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.11.14-14.32.02:216][395]LogAudio: Display: Audio Device Manager Shutdown
+[2022.11.14-14.32.03:132][395]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.11.14-14.32.03:610][395]LogExit: Preparing to exit.
+[2022.11.14-14.32.04:428][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.11.14-14.32.06:280][395]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.11.14-14.32.06:287][395]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.11.14-14.32.06:287][395]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.11.14-14.32.06:287][395]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.11.14-14.32.06:287][395]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.11.14-14.32.06:287][395]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.11.14-14.32.06:287][395]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.11.14-14.32.06:287][395]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.11.14-14.32.06:288][395]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.11.14-14.32.06:288][395]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.11.14-14.32.06:534][395]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2022.11.14-14.32.07:164][395]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.11.14-14.32.07:226][395]LogStylusInput: Shutting down StylusInput subsystem.
+[2022.11.14-14.32.07:249][395]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2022.11.14-14.32.07:331][395]LogExit: Editor shut down
+[2022.11.14-14.32.07:366][395]LogExit: Transaction tracking system shut down
